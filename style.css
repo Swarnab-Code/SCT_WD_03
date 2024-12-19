@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	background-color: #1caaa0;
+	color: white;
+}
+
+h1 {
+	margin-top: 20px;
+}
+
+#game {
+	margin: 20px auto;
+	position: relative;
+}
+
+#board {
+	border: 10px solid #17d6bd;
+	background-color: #1caaa0;
+}
+
+#controls {
+	margin-top: 20px;
+}
+
+button {
+	background-color: #17d6bd;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+button:hover {
+	background-color: #13bfa5;
+}
+
+#winnerText {
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
