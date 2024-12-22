@@ -11,9 +11,9 @@ const ROWS = 3;
 const COLS = 3;
 const SQUARE_SIZE = WIDTH / COLS;
 
-const LINE_COLOR = '#17d6bd';
-const CIRCLE_COLOR = '#efebe8';
-const CROSS_COLOR = '#424242';
+const LINE_COLOR = '#39FF14';
+const CIRCLE_COLOR = '#FF073A';
+const CROSS_COLOR = '#00FFFF';
 const LINE_WIDTH = 10;
 
 let board = Array.from(Array(ROWS), () => Array(COLS).fill(0)); // 0 = empty, 1 = O, 2 = X

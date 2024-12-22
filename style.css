@@ -1,8 +1,8 @@
 body {
 	font-family: Arial, sans-serif;
 	text-align: center;
-	background-color: #1caaa0;
-	color: white;
+	background-color: #000000;
+	color: #39FF14;
 }
 
 h1 {
@@ -15,8 +15,8 @@ h1 {
 }
 
 #board {
-	border: 10px solid #17d6bd;
-	background-color: #1caaa0;
+	border: 10px solid #39FF14;
+	background-color: #000000;
 }
 
 #controls {
@@ -24,8 +24,8 @@ h1 {
 }
 
 button {
-	background-color: #17d6bd;
-	color: white;
+	background-color: #FF073A;
+	color: #FFFFFF;
 	border: none;
 	padding: 10px 20px;
 	font-size: 16px;
@@ -34,7 +34,7 @@ button {
 }
 
 button:hover {
-	background-color: #13bfa5;
+	background-color: #FF4567;
 }
 
 #winnerText {
